@@ -24,11 +24,7 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button>
-
-                <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="https://github.com/FavianIbra">Github</Link>
                 </button>
               </div>
             </div>
@@ -38,40 +34,6 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
               <Image alt="hero-image" src={heroImg} width="400" height="400" />
-
-              <div className={`${classes.hero__skills}`}>
-                <h6>Skills</h6>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-              </div>
-
-              <div
-                className={`${classes.hero__experience} d-flex align-items-center gap-3`}
-              >
-                <span>
-                  <i className="ri-lightbulb-flash-line"></i>
-                </span>
-                <div className="bg-transparent">
-                  <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
-                </div>
-              </div>
             </div>
           </Col>
         </Row>
