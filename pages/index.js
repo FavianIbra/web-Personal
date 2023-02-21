@@ -11,10 +11,6 @@ export default function Home() {
     <Fragment>
       <Hero />
       <Portfolio />
-      <Services />
-      <About />
-      
-      <Testimonial />
       <Contact />
     </Fragment>
   );

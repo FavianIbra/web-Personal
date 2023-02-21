@@ -15,7 +15,7 @@ a {
 
 * {
   box-sizing: border-box;
-  background: #440A67;
+  background: #1a1a2e;
 }
 
 p {
@@ -45,7 +45,7 @@ footer {
 }
 
 .primary__btn {
-  background: #440A67 !important;
+  background: #1a1a2e !important;
   padding: 7px 25px !important;
   border: 1px solid #B4AEE8 !important;
   border-radius: 5px;
@@ -79,7 +79,7 @@ footer {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
-  background: #93329E;
+  background: #1a1a2e;
 }
 
 @media only screen and (max-width: 992px) {
