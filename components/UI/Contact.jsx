@@ -14,9 +14,9 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Saya adalah Programmer Junior yang sedang mendalami dunia it 
+              khususnya dalam dunia coding. Saat ini saya sedang belajar VueJs 
+              Laravel dan NodeJs React. Dan Project yang saya buat ini menggunakan NextJS.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -24,31 +24,25 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Sylhet - Bangladesh</p>
+                <p>Favian Ibra Yanuarta - Malang</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>muhib5532@gmail.com</p>
+                <p>ibra.yanuarta@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+088123456789</p>
+                <p>+085736902974</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
               <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
                 <i className="ri-github-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
               </Link>
               <Link href="#">
                 <i className="ri-linkedin-line"></i>
