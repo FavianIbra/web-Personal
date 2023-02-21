@@ -49,14 +49,7 @@ const Portfolio = () => {
               >
                 Mobile App
               </button>
-              <button
-                className={`${
-                  filter === "Web Design" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
-              >
-                Web Design
-              </button>
+              
             </div>
           </Col>
 
